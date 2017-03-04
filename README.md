@@ -21,7 +21,7 @@ server {
     }
 
     location ~ \.(js|css|gif|jpg|jpeg|png|map|mp4|mp3|eot|svg|tiff|woff|woff2|ttf|ico|json)$ {
-	rewrite ^(.*)$ /public/$1 break;
+	    rewrite ^(.*)$ /public/$1 break;
     }
 
     location ~ \.php$ {
