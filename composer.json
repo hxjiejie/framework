@@ -1,0 +1,11 @@
+{
+  "require": {
+    "hxjiejie/route": "dev-master"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "git@github.com:hxjiejie/route.git"
+    }
+  ]
+}
