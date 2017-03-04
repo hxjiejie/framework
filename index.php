@@ -7,7 +7,7 @@ include 'route/route.php';
 // autoload framework/app/Http/Controllers/controller.php
 spl_autoload_register(function($controller) {
     $controller_path    = str_replace('\\', '/', $controller);
-    $file_path          = dirname(__DIR__) . '/' . lcfirst($controller_path) . '.php';
+    $file_path          = __DIR__. '/' . lcfirst($controller_path) . '.php';
 
     if (file_exists($file_path)) {
         include $file_path;
