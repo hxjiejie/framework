@@ -8,3 +8,7 @@ Route::get('/', function() {
 Route::get('/index', function() {
     echo 'here is index.';
 });
+
+Route::get('/demo/index', function() {
+    echo 'here is demo event.';
+});
