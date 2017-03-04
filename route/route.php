@@ -11,8 +11,6 @@ spl_autoload_register(function($controller) {
     }
 });
 
-Route::setNamespace('App\Http\Controllers');
-
 Route::get('/', function() {
     echo 'Welcome to framework.';
 });
