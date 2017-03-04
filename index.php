@@ -1,5 +1,5 @@
 <?php
-use hxjiejie\route\Route;
+use component\route\Route;
 
 include 'vendor/autoload.php';
 include 'route/route.php';
