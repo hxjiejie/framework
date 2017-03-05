@@ -1,4 +1,4 @@
-# kuang
+# Framework
 framework for php develop
 
 ##Nginx配置:
