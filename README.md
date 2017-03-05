@@ -15,7 +15,7 @@ server {
 
     location / {
         if (!-e $request_filename) {
-                rewrite ^.*$ /index.php last;
+                rewrite ^.*$ /public/index.php last;
                 break;
         }
     }
